@@ -1,3 +1,7 @@
+--========================================--
+--Market MP Report
+--========================================--
+
 SELECT top 20 t.productvariantId [PVID], 
 	          pv.Name [Product], 
 	          Count(t.productvariantId) [MPQTY]
